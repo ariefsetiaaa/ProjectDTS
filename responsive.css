@@ -8,6 +8,8 @@
   .header-right {
     display: none;
   }
+  .header-right a {
+    font-size: 12px;
 
   .menu-icon {
     display: block;
