@@ -5,10 +5,16 @@
 
 /* EXPERIMENT START */
 
+a {
+  text-decoration: none;
+}
+
 header {
   height: 100px;
   width: 100%;
+  font-family: 'Lalezar', cursive;
   background-color: black;
+  opacity: 70%;
   position :fixed;
   top: 0;
   z-index: 10;
@@ -35,6 +41,7 @@ header {
 }
 
 .header-right a {
+  font-size: 26px;
   line-height: 65px;
   padding: 0 25px;
   color: white;
@@ -145,7 +152,7 @@ header {
     height: 750px;
     margin: 15px 2px 0px 2px;
     border-radius: 10px;
-    background-color: #fff;  
+    background-color: #fff;
 }
 
 .mainbody-right {
