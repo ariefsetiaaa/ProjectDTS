@@ -162,7 +162,7 @@ header {
   margin-right: 5px;
 }
 
-/* WELCOME MESSAGE STOP by ariefsetiaaa */ 
+/* WELCOME MESSAGE STOP by ariefsetiaaa */
 
 /* SLIDE START */
 
@@ -171,13 +171,16 @@ header {
   max-width: 100%;
   height: auto;
   margin-top: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .slider img {
-    vertical-align: middle;
-    border-style: none;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-bottom: 30px;
 }
+
 
 
 /* SLIDE END */
@@ -201,12 +204,12 @@ header {
   .footer .col h2{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
-	font-size: 15px;  
+	font-size: 15px;
 	}
   .footer .col ul p{
 	font-family: inherit;
 	text-align: center;
-	font-size: 10px; 
+	font-size: 10px;
   }
   .footer .col h1 {
 	margin: 0;
