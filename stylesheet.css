@@ -179,6 +179,8 @@ header {
   display: block;
   height: auto;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
