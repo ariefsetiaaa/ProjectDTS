@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-/* CSS Document */
-
 * {
   box-sizing: border-box;
 }
@@ -10,7 +8,7 @@ body {
   margin: 0;
 }
 
-/* HEADER START */
+/* HEADER START by ariefsetiaaa */
 
 a {
   text-decoration: none;
@@ -72,9 +70,9 @@ header {
   display: none;
 }
 
-/* HEADER END */
+/* HEADER END by ariefsetiaaa */
 
-/* WELCOME MESSAGE START */
+/* WELCOME MESSAGE START ariefsetiaaa */
 
 
 .top-wrapper {
@@ -164,7 +162,7 @@ header {
   margin-right: 5px;
 }
 
-/* WELCOME MESSAGE STOP */
+/* WELCOME MESSAGE STOP by ariefsetiaaa */ 
 
 /* SLIDE START */
 
