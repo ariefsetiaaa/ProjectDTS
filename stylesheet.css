@@ -167,6 +167,7 @@ header {
 /* SLIDE START */
 
 .slider h1 {
+  text-align: center;
   max-width: 100%;
   height: auto;
   margin-top: 30px;
@@ -175,7 +176,6 @@ header {
 
 .slider img {
     vertical-align: middle;
-    text-align: center;
     border-style: none;
 }
 
