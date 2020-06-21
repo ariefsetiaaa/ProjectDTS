@@ -160,6 +160,7 @@ header {
 
 .fa {
   margin-right: 5px;
+  display: none;
 }
 
 /* WELCOME MESSAGE STOP by ariefsetiaaa */
@@ -192,15 +193,17 @@ header {
 /*  FOOTER START -edited randomwalk-id */
 .footer {
 	width: 100%;
+  text-align: left;
 	position: relative;
 	height: auto;
 	background-color: #999696;
   }
+
  /* bagian penutup footer */
   .footer .col {
 	width: 190px;
 	height: auto;
-	float: left;
+	float: inherit;
 	box-sizing: border-box;
   text-align: center;
 	padding: 0px 20px 20px 20px;
