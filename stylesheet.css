@@ -1,433 +1,66 @@
-@charset "utf-8";
-
-/* CSS Document */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-/* HEADER START */
-
-a {
-  text-decoration: none;
-}
-
-header {
-  height: 100px;
-  width: 100%;
-  font-family: 'Lalezar', cursive;
-  background-color: black;
-  opacity: 90%;
-  z-index: 9;
-}
-
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.header-left {
-  float: left;
-}
-
-.logo {
-  width: 90px;
-  margin-top: 10px;
-  padding-bottom: 10px;
-  top: 0;
-
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  font-size: 26px;
-  line-height: 65px;
-  padding: 0 25px;
-  margin-top: 20px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-/* HEADER END */
-
-/* WELCOME MESSAGE START */
-
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://www.bekasipos.com/sites/default/files/AI_ist_0.jpg);
-  background-size: cover;
-  opacity: inherit;
-  color: white;
-  text-align: center;
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+.slider {
+  width: 50%;
 }
 
 .top-wrapper h1 {
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  opacity: 1;
-  font-family: 'Lalezar', cursive;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  font-family: sans-serif;
-  font-weight: bold;
-  color: black;
-  font-size: 16px;
-  opacity: 1;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-  font-weight: bold;
-}
-
-.tombol1 {
-  background:#2C97DF;
-  color: white;
-  font-weight: bold;
-  border-top:0;
-  border-left:0;
-  border-right:0;
-  border-radius: 0.8;
-  border-bottom:5px solid #2A80B9;
-  padding:12px 24px;
-  text-decoration:none;
-  font-family:sans-serif;
-  font-size:11pt;
-  display: inline-block;
-  opacity: 0.7;
-  text-align: center;
-}
-
-.tombol2 {
-  background:#38ad2b;
-  color: white;
-  font-weight: bold;
-  border-top:0;
-  border-left:0;
-  border-right:0;
-  border-radius: 0.8;
-  border-bottom:5px solid #2A80B9;
-  padding:12px 24px;
-  text-decoration:none;
-  font-family:sans-serif;
-  font-size:11pt;
-  display: inline-block;
-  opacity: 0.7;
-  text-align: center;
-}
-
-.tombol1:hover {
-  opacity: 1;
-}
-
-.tombol2:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-/* WELCOME MESSAGE STOP */
-
-/* SLIDE START */
-
-.slider {
-	border: 10px solid #efefef;
-	position: relative;
-	overflow: hidden;
-	background: #efefef;
-	margin:20px auto;
-	width: 768px;
-	height: 550px;
-}
-
-.judul-slider {
-  text-align: center;
-  font-family: 'Lalezar', cursive;
-}
-
-.isi-slider img {
-	width: 768px;
-	height: 450px;
-	float: left;
-}
-
-.isi-slider {
-	position: absolute;
-	width:3900px;
-
-	/*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
-	animation-name:slider;
-	animation-duration:16s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count:infinite;
-	-webkit-animation-name:slider;
-	-webkit-animation-duration:16s;
-	-webkit-animation-timing-function: ease-in-out;
-	-webkit-animation-iteration-count:infinite;
-	-moz-animation-name:slider;
-	-moz-animation-duration:16s;
-	-moz-animation-timing-function: ease-in-out;
-	-moz-animation-iteration-count:infinite;
-	-o-animation-name:slider;
-	-o-animation-duration:16s;
-	-o-animation-timing-function: ease-in-out;
-	-o-animation-iteration-count:infinite;
+  font-size: 32px;
 }
 
 
-/*saat gambar di hover oleh cursor mouse maka berhenti slide*/
-.isi-slider:hover {
-	-webkit-animation-play-state:paused;
-	-moz-animation-play-state:paused;
-	-o-animation-play-state:paused;
-	animation-play-state:paused; }
 }
 
-.isi-slider img {
-	float: right;
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  body {
+    font-size: 12px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .slider {
+    width: 50%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .tombol1 {
+     width: 100%;
+   }
+
+  .tombol2 {
+    width: 100%;
+  }
+
+   /* Gantikan margin-bottom facebook ke 10px */
+   .tombol2 {
+     margin-bottom: 10px;
+   }
+
+   /* Tambahkan CSS untuk top-wrapper */
+   .top-wrapper {
+     text-align: left;
+     padding-top: 130px;
+   }
+
+   .top-wrapper h1 {
+     font-size: 24px;
+     line-height: 36px;
+ }
+
+ /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
+    .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+ }
 }
-
-.slider:after {
-	font-size: 150px;
-	position: absolute;
-	z-index: 12;
-	color: rgba(255,255,255, 0);
-	left: 300px; top: 80px;
-	-webkit-transition: 1s all ease-in-out;
-	-moz-transition: 1s all ease-in-out;
-	transition: 1s all ease-in-out;
-}
-
-.slider:hover:after {
-	color: rgba(255,255,255, 0.6);
-}
-
-
-
-@-moz-keyframes slider {
-	0% {
-		left: 0; opacity: 0;
-	}
-	2% {
-		opacity: 1;
-	}
-	20% {
-		left: 0; opacity: 1;
-	}
-	21% {
-		opacity: 0;
-	}
-	24% {
-		opacity: 0;
-	}
-	25% {
-		left: -768px; opacity: 1;
-	}
-	45% {
-		left: -768px; opacity: 1;
-	}
-	46% {
-		opacity: 0;
-	}
-	48% {
-		opacity: 0;
-	}
-	50% {
-		left: -1536px; opacity: 1;
-	}
-	70% {
-		left: -1536px; opacity: 1;
-	}
-	72% {
-		opacity: 0;
-	}
-	74% {
-		opacity: 0;
-	}
-	75% {
-		left: -2304px; opacity: 1;
-	}
-	95% {
-		left: -2304px; opacity: 1;
-	}
-	97% {
-		left: -2304px; opacity: 0;
-	}
-	100% {
-		left: 0; opacity: 0;
-	}
-}
-
-@-webkit-keyframes slider {
-	0% {
-		left: 0; opacity: 0;
-	}
-	2% {
-		opacity: 1;
-	}
-	20% {
-		left: 0; opacity: 1;
-	}
-	21% {
-		opacity: 0;
-	}
-	24% {
-		opacity: 0;
-	}
-	25% {
-		left: -768px; opacity: 1;
-	}
-	45% {
-		left: -768px; opacity: 1;
-	}
-	46% {
-		opacity: 0;
-	}
-	48% {
-		opacity: 0;
-	}
-	50% {
-		left: -1536px; opacity: 1;
-	}
-	70% {
-		left: -1536px; opacity: 1;
-	}
-	72% {
-		opacity: 0;
-	}
-	74% {
-		opacity: 0;
-	}
-	75% {
-		left: -2304px; opacity: 1;
-	}
-	95% {
-		left: -2304px; opacity: 1;
-	}
-	97% {
-		left: -2304px; opacity: 0;
-	}
-	100% {
-		left: 0; opacity: 0;
-	}
-}
-
-
-@keyframes slider {
-	0% {
-		left: 0; opacity: 0;
-	}
-	2% {
-		opacity: 1;
-	}
-	20% {
-		left: 0; opacity: 1;
-	}
-	21% {
-		opacity: 0;
-	}
-	24% {
-		opacity: 0;
-	}
-	25% {
-		left: -768px; opacity: 1;
-	}
-	45% {
-		left: -768px; opacity: 1;
-	}
-	46% {
-		opacity: 0;
-	}
-	48% {
-		opacity: 0;
-	}
-	50% {
-		left: -1536px; opacity: 1;
-	}
-	70% {
-		left: -1536px; opacity: 1;
-	}
-	72% {
-		opacity: 0;
-	}
-	74% {
-		opacity: 0;
-	}
-	75% {
-		left: -2304px; opacity: 1;
-	}
-	95% {
-		left: -2304px; opacity: 1;
-	}
-	97% {
-		left: -2304px; opacity: 0;
-	}
-
-	100% {
-		left: 0; opacity: 0;
-	}
-}
-
-/* SLIDE END */
-
-/*  FOOTER START */
-
-.clear {
-  clear: left;
-}
-
-footer img {
-  width: 50px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  border-top: 2px solid #eee;
-  margin-top: 5px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-/* FOOTER END */
