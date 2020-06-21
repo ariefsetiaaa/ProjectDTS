@@ -14,8 +14,8 @@ header {
   width: 100%;
   font-family: 'Lalezar', cursive;
   background-color: black;
-  opacity: 70%;
-  z-index: 10;
+  opacity: 90%;
+  z-index: 9;
 }
 
 .container {
@@ -29,8 +29,11 @@ header {
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 90px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  top: 0;
+
 }
 
 .header-right {
@@ -42,6 +45,7 @@ header {
   font-size: 26px;
   line-height: 65px;
   padding: 0 25px;
+  margin-top: 20px;
   color: white;
   display: block;
   float: left;
@@ -52,26 +56,96 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 /* HEADER END */
 
-/* SLIDE START */
+/* WELCOME MESSAGE START */
 
-h2{
-	font-family: sans-serif;
-	font-weight: normal;
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.bekasipos.com/sites/default/files/AI_ist_0.jpg);
+  background-size: cover;
+  opacity: inherit;
+  color: white;
+  text-align: center;
 }
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-family: 'Lalezar', cursive;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  font-family: sans-serif;
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+  font-family: sans-serif;
+}
+
+.facebook {
+  background-color: #3b5998;
+  font-family: sans-serif;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+/* WELCOME MESSAGE START */
+
+/* SLIDE START */
 
 .slider {
 	border: 10px solid #efefef;
 	position: relative;
 	overflow: hidden;
 	background: #efefef;
-}
-
-.slider {
 	margin:20px auto;
 	width: 768px;
-	height: 450px;
+	height: 550px;
+}
+
+.judul-slider {
+  text-align: center;
+  font-family: 'Lalezar', cursive;
 }
 
 .isi-slider img {
@@ -299,162 +373,26 @@ h2{
 
 /* SLIDE END */
 
-.h1 {
-    color: #000000;
+/*  FOOTER START */
+
+.clear {
+  clear: left;
 }
 
-.h2 {
-    color: #000000;
+footer img {
+  width: 50px;
 }
 
-.p {
-    color: #000000;
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
 }
 
-.body {
-    background-image: url(bg.jpg);
+footer {
+  border-top: 2px solid #eee;
+  margin-top: 5px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
-.wrapper {
-    width: 880px;
-    height: 950px;
-    overflow: hidden;
-    margin: 30px auto 30px auto;
-    position: relative;
-}
-
-.header {
-    width: 100%;
-    height: 130px;
-}
-
-.header-logo {
-    width: 183px;
-    height: 120px;
-    background-image: url(sma-solar-technology-logo.png);
-    background-image: no-repeat;
-    float: left;
-}
-
-.header-text {
-    width: 100px;
-    height: 120px;
-    margin: 0 5px;
-    float: left;
-}
-
-.header-mini-logo {
-    width: 84px;
-    height: 16px;
-    float: right;
-    margin: 5px;
-}
-
-.navbar {
-    width: 880px;
-    height: 40px;
-    background-image: url(menu_bg.jpg);
-}
-
-.navbar ul {
-    width: auto;
-    float: left;
-    display: block;
-    list-style: none;
-    padding: 2px 0 0 130px;
-    margin: 0px;
-    text-align: center;
-}
-
-.navbar ul li {
-    display: inline;
-    padding: 0px;
-    margin: 0px;
-    height: 37px;
-}
-
-.navbar ul li a {
-    background-color: #517EE7;
-    display: block;
-    padding: 0px;
-    padding: 0 17px 0 17px;
-    float: left;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    font-size: 13px;
-    line-height: 34px;
-}
-
-.navbar ul li a:hover {
-    color: #0C9;
-}
-
-.mainbody {
-    width: 870px;
-    height: 750px;
-    margin: 15px 2px 0px 2px;
-    border-radius: 10px;
-    background-color: #fff;
-}
-
-.mainbody-right {
-    width: 150px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 10px 10px 0px 10px;
-    float: right;
-}
-
-.mainbody-right a {
-    color: #996;
-    text-decoration: none;
-}
-
-.mainbody-right a:hover {
-    color: #0C9;
-    text-decoration: underline;
-}
-
-.mainbody-center {
-    width: 670px;
-    height: auto;
-    border-radius: 10px;
-    margin: 10px 10px 0px 10px;
-    float: left;
-}
-
-.footer {
-    width: 880px;
-    height: 40px;
-    background-image: url(menu_bg.jpg);
-    margin: 10px auto 20px auto;
-}
-
-.footer p {
-    color: #fff;
-    margin: 2px;
-    padding: 3px;
-}
-
-.footer a {
-    color: #fff;
-    margin: 2px;
-    padding: 3px;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    color: #0C9;
-    text-decoration: underline;
-}
-
-.footer-right {
-    width: 80px;
-    height: 40px;
-    float: right;
-}
-
-.footer-right a {
-    color: #fff;
-}
+/* FOOTER END */
