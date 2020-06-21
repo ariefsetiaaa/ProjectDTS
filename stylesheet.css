@@ -240,11 +240,6 @@ header {
 	font-weight: bold;
 	padding: 5px 0px 5px 0px;
 	cursor: pointer;
-	 
-	  
-  .copyright {
-	text-align: center;
-	  }
 
   }
   /*bagian animasi text ganti warna*/
@@ -256,4 +251,7 @@ header {
 	clear: both;
   }
 
+.copyright {
+  text-align: center;
+}
 /* FOOTER END */
