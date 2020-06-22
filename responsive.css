@@ -4,6 +4,10 @@
   margin : auto;
 }
 
+.marketing {
+  margin: auto;
+}
+
 .top-wrapper h1 {
   font-size: 32px;
 }
@@ -28,8 +32,12 @@
     margin: auto;
   }
 
+  .marketing {
+    margin: auto;
+  }
+
   footer {
-    text-align: center;
+    margin: auto;
   }
 
   .tombol1 {
