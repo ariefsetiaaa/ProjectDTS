@@ -197,9 +197,9 @@ header {
 	height: auto;
 	float: left;
 	box-sizing: border-box;
-  text-align: center;
+  	text-align: center;
 	padding: 20px;
-  color: white;
+  	color: white;
   }
   .footer .col h2{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -250,6 +250,6 @@ header {
   }
 
   .copyright {
-  text-align: center;
+  	text-align: center;
   }
 /* FOOTER END */
